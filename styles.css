@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body
+{
+
+background-color: #6d6d6d;
+color: white;
+
+}
+h1
+{
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+h2
+{
+
+  
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  width: 50%;
+  background-color: #1b1b1b;
+}
+
+.m-0
+{
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.darker
+{
+
+background-color: #1b1b1b;
+
+}
+
+.dark
+{
+
+background-color: #424242;
+
+}
+
+a,h4
+{
+
+color: white;
+
+}
+
+h4
+{
+
+padding: 0;
+margin: 0;
+  
+}
+
+img
+{
+
+  width: 200px; 
+  height: 200px;
+  margin: 0 auto;
+  
+
+}
+
+.center
+{
+
+margin:10px auto;
+
+}
+
+.contacts
+{
+
+  box-sizing: border-box;
+  background-color: #424242;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+
+}
+
+.card
+{
+
+  background-color: #6d6d6d;
+  padding: 10px;
+  margin: 10px;
+  border-width: medium;
+  border-color: #424242;
+
+}
+
+.card-title
+{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.fixImage
+{
+
+  transform: rotate(90deg);
+  
+  border-style: solid;
+  border-color: #1b1b1b;
+  border-width: 2px;
+
+}
