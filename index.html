@@ -1,43 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="styles.css">
-<title>Nicholas Parr</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Nicholas Parr</title>
 </head>
+
 <body>
 
-    <div class="row">
-        <div class="col-12 col-lg-4 darker">
-          <h1>Nicholas Parr</h1>
+  <div class="row">
+    <div class="col-12 col-lg-4 darker">
+      <h1>Nicholas Parr</h1>
+    </div>
+    <div class="col-12 col-lg-8 m-0">
+
+      <nav class="navbar navbar-expand-lg dark">
+
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+          data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link" href="#">Portfolio</a>
+
+          </div>
         </div>
-        <div class="col-12 col-lg-8 m-0">
+      </nav>
+    </div>
 
-          <nav class="navbar navbar-expand-lg dark">
+  </div>
 
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
-              data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Contact</a>
-                <a class="nav-item nav-link" href="#">Portfolio</a>
+  <!--About section-->
+  <div class="row">
 
-              </div>
-            </div>
-          </nav>
+    <h2 class="col-10 col-lg-6">About Me</h2>
+
+    <div class="col-10">
+      <div class="row justify-content-center">
+
+        <div class="col-5 col-md-4 m-2">
+
+          <img class="fixImage " src={profilePic} alt="Nicholas Parr" />
+
+        </div>
+
+        <div class="col-10 col-md-6 m-2">
+          <p>Welcome to my portfolio where you can learn a bit about me and what I do as a programmer and fullstack
+            devloper. With my degree in Interactive Multimedia and knowledge gained from a web development boot camp I
+            am a capable and adaptive full stack developer. In college I was the president of our game design club where
+            I shared my passion for developing with my peers by doing things such as leading tutorials and organizing
+            game jams. I have recently cultivated my skills with javascript and general web development skills by
+            learning to work with tools such as Git, Jquery, Bootstrap, and React as well as grappling with a number of
+            different APIs. Feel free to contact me by email or linkedin.</p>
+
         </div>
 
       </div>
+    </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </div>
+
+  <!--Projects section-->
+
+  <h2 class="col-10 col-lg-6">Projects</h2>
+
+  <div class="container">
+
+    <div class="card flex-row flex-wrap">
+      <div class="card-header border-0">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/1024px-Overwatch_circle_logo.svg.png"
+          alt="Overwatch logo" />
+      </div>
+      <div class="card-block px-2">
+        <h4 class="card-title">Overworkshop</h4>
+        <p class="card-text">Overworkshop is an application that allows users to share find and review game modes for
+          the Workshop of the Game Overwatch. Users can log into google to share their own game modes as well as comment
+          on and review other people’s game modes. All information is stored on a MySQL server and powered by NodeJS and
+          React. I was personally responsible for creating the backend for the comments and posts as well as overseeing
+          the creation and implementation of the frontend while working with my group.</p>
+        <a href="https://github.com/parrnicholasj/overworkshop2" class="btn btn-primary m-1">Github</a>
+        <a href="https://overworkshop.herokuapp.com/" class="btn btn-primary m-1">Live</a>
+      </div>
+      <div class="w-100"></div>
+
+    </div>
+
+    <div class="card flex-row flex-wrap">
+      <div class="card-header border-0">
+        <img src="https://cdn.pixabay.com/photo/2011/12/13/14/31/earth-11015_960_720.jpg" alt="Globe of Earth" />
+      </div>
+      <div class="card-block px-2">
+        <h4 class="card-title">Research It: Country Edition</h4>
+        <p class="card-text">Research It: Country Edition is designed as a classroom research tool for grades 5-7.
+          Students at this age often start engaging in research projects for the first time, and begin talking about
+          primary and secondary sources for research. The app is meant to be used as a preliminary research tool, to
+          guide students through what kinds of information they might need in a larger research project. In this group
+          project I was personally responsible for the implementation of all the APIs used in the project.</p>
+        <a href="https://github.com/parrnicholasj/Research-it-World-Edition" class="btn btn-primary m-1">Github</a>
+        <a href="https://parrnicholasj.github.io/Research-it-World-Edition/" class="btn btn-primary m-1">Live</a>
+      </div>
+      <div class="w-100"></div>
+
+    </div>
+
+    <div class="card flex-row flex-wrap">
+      <div class="card-header border-0">
+        <img src="https://ipa.org.au/wp-content/uploads/2018/07/Forum.jpg" alt="Roman ruins" />
+      </div>
+      <div class="card-block px-2">
+        <h4 class="card-title">History Trivia Game</h4>
+        <p class="card-text">This was a simple game I created to practice using timers in JavaScript. It has the user
+          answer a series of questions related to history within a set amount of time and tracks their score.</p>
+        <a href="https://github.com/parrnicholasj/triviaGame" class="btn btn-primary m-1">Github</a>
+        <a href="https://parrnicholasj.github.io/triviaGame/" class="btn btn-primary m-1">Live</a>
+      </div>
+      <div class="w-100"></div>
+
+    </div>
+
+  </div>
+
+  <!--Contact section-->
+
+  <h2 class="col-10 col-lg-6">Contact</h2>
+  <div class="row justify-content-center">
+
+    <a class="contacts col-8 col-sm-5 col-xl-2" href="mailto:parrnicholasj@gmail.com">parrnicholasj@gmail.com</a>
+
+    <a class="contacts col-8 col-sm-5 col-xl-2"
+      href="https://www.linkedin.com/in/nicholas-parr-854b61b7/">linkedin</a>
+
+    <a class="contacts col-8 col-sm-5 col-xl-2" href="https://github.com/parrnicholasj">Github</a>
+
+    <a class="contacts col-8 col-sm-5 col-xl-2" href={Resume}>Resume</a>
+
+  </div>
+
+  <footer class="page-footer font-small blue">
+
+
+    <div class=" col-12 footer-copyright text-center py-3 darker">
+
+      Nicholas Parr
+
+    </div>
+
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
