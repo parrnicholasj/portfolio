@@ -35,6 +35,22 @@ h2
   width: 50%;
   background-color: #1b1b1b;
 }
+ul
+{
+
+  background-color: #424242;
+
+}
+li
+{
+
+  text-align: center;
+
+}
+.center
+{
+  margin: 0 auto;
+}
 
 .m-0
 {
@@ -80,13 +96,6 @@ img
   height: 200px;
   margin: 0 auto;
   
-
-}
-
-.center
-{
-
-margin:10px auto;
 
 }
 
