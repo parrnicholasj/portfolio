@@ -21,8 +21,7 @@ color: white;
 h1
 {
 
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin: 10px;
 
 }
 h2
@@ -44,7 +43,9 @@ ul
 li
 {
 
-  text-align: center;
+  text-align: left;
+  padding: 10px;
+  list-style-type: none;
 
 }
 .center
