@@ -34,18 +34,16 @@ h2
   width: 50%;
   background-color: #1b1b1b;
 }
-ul
-{
 
-  background-color: #424242;
-
-}
 li
 {
-
+  
+  background-color: #424242;
   text-align: left;
   padding: 10px;
-  list-style-type: none;
+  list-style-position: inside;
+  border: 5px solid #1b1b1b;
+  margin: 5px;
 
 }
 .center
