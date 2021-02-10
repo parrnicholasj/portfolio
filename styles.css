@@ -126,11 +126,9 @@ img
   font-weight: bold;
 }
 
-.fixImage
+.imageBorder
 {
 
-  transform: rotate(90deg);
-  
   border-style: solid;
   border-color: #1b1b1b;
   border-width: 2px;
